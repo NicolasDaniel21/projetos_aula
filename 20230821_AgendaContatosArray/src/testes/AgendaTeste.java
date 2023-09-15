@@ -30,8 +30,9 @@ public class AgendaTeste {
 		if (contatoConsultado2 != null)
 			mostra(contatoConsultado2);
 		
-		
 		agendaTelefonica.adicionaContato(c1);
+		
+		System.out.println("Linha adicionada para primeiro commit");
 
 		System.out.println("posicao do objeto c1: " + agendaTelefonica.consultaPosicao(contatoConsultado2));
 		
